@@ -22,7 +22,7 @@ module.exports = function(options) {
 	gulp.task('serve', gulp.series('watch', browserSyncInit.bind(null,[
 		options.tmp,
 		'.',
-		'./../craft/.tmp',
+		'./../craft/build',
 		'src'
 	],null)));
 
