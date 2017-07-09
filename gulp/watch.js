@@ -17,7 +17,7 @@ module.exports = function(options) {
 		], gulp.series('fullReload'));
 
 		gulp.watch([
-			'./../craft/.tmp/*.js',
+			'./../craft/build/*.js',
 		], function watch(done){
 			browserSync.reload();
 			done();
