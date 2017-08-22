@@ -21,7 +21,7 @@ var scope = {};
 module.exports = function(game,rootScope){
 	var state = {};
 
-	var craft = require('craft')(game);
+	var craft = require('phaser-craft')(game);
 
 	state.init = function(){
 	}

@@ -11,9 +11,8 @@ module.exports = function(options) {
 		var externals = {
 			"Phaser": "Phaser",
 			"phaser": "Phaser",
-			"craft": "craft",
-			"phaser-craft": "craft",
 			"utils": "$utils",
+			"phaser-craft": "craft",
 			"stats": "Stats"
 		}
 
